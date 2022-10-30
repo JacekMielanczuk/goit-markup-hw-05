@@ -18,6 +18,10 @@ body {
 .link {
   text-decoration: none;
   color: var(--main-color);
+
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover,
 .link:focus,
@@ -98,6 +102,7 @@ link:active {
   --color5: var(--title-color);
   --color3: var(--buttons-color);
 }
+
 .phone {
   width: 10px;
   height: 16px;

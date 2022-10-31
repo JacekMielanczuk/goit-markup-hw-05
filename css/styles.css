@@ -190,6 +190,7 @@ link:active {
   padding: 8px;
 }
 .modal-btn {
+  cursor: pointer;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -544,6 +545,9 @@ link:active {
   transform: translateY(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  text-align: left;
+  justify-content: center;
 }
 .card-hover:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -551,6 +555,15 @@ link:active {
 }
 .card-hover:hover .overlay {
   transform: translateY(0);
+}
+.overlay-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 00.03em;
+  color: #ffffff;
+  margin: auto;
+  width: 301px;
 }
 .item {
   flex-basis: calc((100%-60px) / 3);

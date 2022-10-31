@@ -336,9 +336,9 @@ link:active {
   align-items: center;
   justify-content: center;
 }
-.social-list-link:hover,
-.social-list-link:focus,
-.social-list-link:active {
+.social-list-link:hover .social-links,
+.social-list-link:focus .social-links,
+.social-list-link:active .social-links {
   fill: #ffffff;
   background-color: #2196f3;
 }
@@ -347,6 +347,7 @@ link:active {
   height: 44px;
   fill: #afb1b8;
   background-color: #ffffff;
+  border-radius: 50%;
 }
 /*CSSy dla Nasi klienci*/
 .client-list {

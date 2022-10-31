@@ -335,6 +335,9 @@ link:active {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  transition: fill background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link:hover .social-links,
 .social-list-link:focus .social-links,
@@ -348,6 +351,9 @@ link:active {
   fill: #afb1b8;
   background-color: #ffffff;
   border-radius: 50%;
+  transition: fill background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*CSSy dla Nasi klienci*/
 .client-list {

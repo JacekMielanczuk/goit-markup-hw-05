@@ -290,7 +290,7 @@ link:active {
   letter-spacing: 0.03em;
   color: var(--main-color);
   text-align: center;
-  padding-top: 94px;
+
   padding-bottom: 50px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -310,6 +310,7 @@ link:active {
   display: flex;
   justify-content: space-around;
   padding-left: 0px;
+  margin-bottom: 0px;
 }
 .team {
   font-weight: 400;

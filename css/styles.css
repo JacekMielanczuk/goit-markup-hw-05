@@ -95,32 +95,38 @@ link:active {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  --color2: var(--descriptions-color);
+  color: #757575;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact:hover .contact:focus {
-  color: var(--buttons-color);
+.contact:hover .envelope,
+.contact:focus .envelope {
+  fill: #2196f3;
+}
+.contact:hover .phone,
+.contact:focus .phone {
+  fill: #2196f3;
 }
 .envelope {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  color: var(--descriptions-color);
-}
-.link:hover,
-.link:focus,
-.link:active {
-  --color1: var(--buttons-color);
-  --color2: var(--buttons-color);
-  --color4: var(--buttons-color);
-  --color5: var(--title-color);
-  --color3: var(--buttons-color);
+  fill: #757575;
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: #757575;
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*CSSy dla Hero*/
 .title {
